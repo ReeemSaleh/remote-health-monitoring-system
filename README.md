@@ -81,20 +81,20 @@ All components communicate using TCP sockets to ensure reliable, ordered data tr
 ## 📁 Project Structure
 
    ```bash
-    Remote_Health_Monitoring_System/
+    remote_health_monitoring_system/
     ├── src/
-    │   ├── Icons/
-    │   ├── Medical_Server/
-    │   │   ├── GUI_Medical_Server.java
-    │   │   └── Medical_Server.java
-    │   ├── Personal_Server/
-    │   │   ├── GUI_Personal_Server.java
-    │   │   └── Personal_Server.java
-    │   └── Sensor_Client_App/
-    │       ├── GUI_Get_Input.java
-    │       ├── GUI_Patient_Health_Info.java
-    │       ├── GUI_Sensor_Client_App.java
-    │       └── Sensor_Client_App.java
+    │   ├── icons/
+    │   ├── medical_server/
+    │   │   ├── gui_medical_server.java
+    │   │   └── medical_server.java
+    │   ├── personal_server/
+    │   │   ├── gui_personal_server.java
+    │   │   └── personal_server.java
+    │   └── sensor_client_app/
+    │       ├── gui_get_input.java
+    │       ├── gui_patient_health_info.java
+    │       ├── gui_sensor_client_app.java
+    │       └── sensor_client_app.java
     └── README.md
    ```
 
