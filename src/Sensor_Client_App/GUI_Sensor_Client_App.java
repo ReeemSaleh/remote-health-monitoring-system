@@ -1,10 +1,10 @@
-package Sensor_Client_App;
+package sensor_client_app;
 
-public class GUI_Sensor_Client_App extends javax.swing.JFrame {
+public class gui_sensor_client_app extends javax.swing.JFrame {
 
-    private final GUI_Get_Input input_interface = new GUI_Get_Input();
+    private final gui_get_input input_interface = new gui_get_input();
 
-    public GUI_Sensor_Client_App() {
+    public gui_sensor_client_app() {
         initComponents();
         jLabel11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         startButton.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -199,10 +199,10 @@ public class GUI_Sensor_Client_App extends javax.swing.JFrame {
                 }
             }
         } catch (Exception ex) {
-            java.util.logging.Logger.getLogger(GUI_Sensor_Client_App.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(gui_sensor_client_app.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
 
-        java.awt.EventQueue.invokeLater(() -> new GUI_Sensor_Client_App().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new gui_sensor_client_app().setVisible(true));
     }
 
     // Variables declaration

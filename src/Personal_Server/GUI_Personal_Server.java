@@ -1,10 +1,10 @@
-package Personal_Server;
+package personal_server;
 
 // GUI class for the Personal Server interface
-public class GUI_Personal_Server extends javax.swing.JFrame {
+public class gui_personal_server extends javax.swing.JFrame {
 
     // Constructor initializes UI and sets basic window properties
-    public GUI_Personal_Server() {
+    public gui_personal_server() {
         initComponents();
         setTitle("Personal Server"); // Set the window title
         setResizable(false); // Disable resizing
@@ -209,13 +209,13 @@ public class GUI_Personal_Server extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(GUI_Personal_Server.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(gui_personal_server.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
 
         // Launch the GUI on the Event Dispatch Thread
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new GUI_Personal_Server().setVisible(true);
+                new gui_personal_server().setVisible(true);
             }
         });
     }

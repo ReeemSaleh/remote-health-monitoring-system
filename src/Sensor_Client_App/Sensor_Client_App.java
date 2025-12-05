@@ -1,4 +1,4 @@
-package Sensor_Client_App;
+package sensor_client_app;
 
 import java.io.IOException;
 import java.io.ObjectOutputStream;
@@ -7,7 +7,7 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Random;
 
-public class Sensor_Client_App {
+public class sensor_client_app {
     
     private int userInput;
 
@@ -49,7 +49,7 @@ public class Sensor_Client_App {
             Random randNo = new Random();
             
             // Creat an object from the showData_interface to be able to send the data to that GUI
-            GUI_Patient_Health_Info show=new GUI_Patient_Health_Info();
+            gui_patient_health_info show=new gui_patient_health_info();
 
             // The minimum time of execution is 60 seconds
             if (userInput < 60) {
@@ -127,7 +127,7 @@ public class Sensor_Client_App {
 
     public static void main(String[] args) throws IOException , InterruptedException {
         // Create an object from the main GUI and make it visible
-        GUI_Sensor_Client_App ms = new GUI_Sensor_Client_App();
+        gui_sensor_client_app ms = new gui_sensor_client_app();
         ms.setVisible(true);
     }
 }

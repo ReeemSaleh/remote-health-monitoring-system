@@ -1,4 +1,4 @@
-package Personal_Server;
+package personal_server;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -8,14 +8,14 @@ import java.io.OutputStreamWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class Personal_Server {
+public class personal_server {
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
 
         // Port number
         int serverPort = 600;
 
-        GUI_Personal_Server show= new GUI_Personal_Server();
+        gui_personal_server show= new gui_personal_server();
         
         // Variables
         ServerSocket serverSocket = new ServerSocket(serverPort);
