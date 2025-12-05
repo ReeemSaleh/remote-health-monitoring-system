@@ -7,9 +7,9 @@ By using classical TCP socket programming and a user-friendly Java Swing GUI, th
 
 <div align="center">
   <picture>
-    <source srcset="Repository_Assets/Interaction_Diagram_Dark.png" media="(prefers-color-scheme: dark)">
-    <source srcset="Repository_Assets/Interaction_Diagram_Light.png" media="(prefers-color-scheme: light)">
-    <img src="Repository_Assets/Interaction_Diagram_Light.png" alt="Interaction Diagram" width="900px">
+    <source srcset="repository_assets/interaction_diagram_dark.png" media="(prefers-color-scheme: dark)">
+    <source srcset="repository_assets/interaction_diagram_light.png" media="(prefers-color-scheme: light)">
+    <img src="repository_assets/interaction_diagram_light.png" alt="Interaction Diagram" width="900px">
   </picture>
 </div>
 
@@ -29,11 +29,11 @@ All components communicate using TCP sockets to ensure reliable, ordered data tr
   <table style="border: none;">
     <tr>
       <td align="center" style="border: none;">
-        <img src="Repository_Assets/Sensor_Client_Application_Interface.png" width="500"/><br/>
+        <img src="repository_assets/sensor_client_application_interface.png" width="500"/><br/>
         <sub><b>Figure 1:</b> Sensor Client Application Interface</sub>
       </td>
       <td align="center" style="border: none;">
-        <img src="Repository_Assets/Get_Input_Interface.png" width="500"/><br/>
+        <img src="repository_assets/get_input_interface.png" width="500"/><br/>
         <sub><b>Figure 2:</b> Get Input Interface</sub>
       </td>
     </tr>
@@ -44,15 +44,15 @@ All components communicate using TCP sockets to ensure reliable, ordered data tr
   <table style="border: none;">
     <tr>
       <td align="center" style="border: none;">
-        <img src="Repository_Assets/Patient_Health_Information_Interface.png" width="370"/><br/>
+        <img src="repository_assets/patient_health_information_interface.png" width="370"/><br/>
         <sub><b>Figure 3:</b> Patient Health Information Interface</sub>
       </td>
       <td align="center" style="border: none;">
-        <img src="Repository_Assets/Personal_Server_Interface.png" width="370"/><br/>
+        <img src="repository_assets/personal_server_interface.png" width="370"/><br/>
         <sub><b>Figure 4:</b> Personal Server Interface</sub>
       </td>
       <td align="center" style="border: none;">
-        <img src="Repository_Assets/Medical_Server_Interface.png" width="370"/><br/>
+        <img src="repository_assets/medical_server_interface.png" width="370"/><br/>
         <sub><b>Figure 5:</b> Medical Server Interface</sub>
       </td>
     </tr>
@@ -63,15 +63,15 @@ All components communicate using TCP sockets to ensure reliable, ordered data tr
   <table style="border: none;">
     <tr>
       <td align="center" style="border: none;">
-        <img src="Repository_Assets/Sensor_Client_Application_Terminal.png" width="370"/><br/>
+        <img src="repository_assets/sensor_client_application_terminal.png" width="370"/><br/>
         <sub><b>Figure 6:</b> Sensor Client Application Terminal</sub>
       </td>
       <td align="center" style="border: none;">
-        <img src="Repository_Assets/Personal_Server_Terminal.png" width="370"/><br/>
+        <img src="repository_assets/personal_server_terminal.png" width="370"/><br/>
         <sub><b>Figure 7:</b> Personal Server Terminal</sub>
       </td>
       <td align="center" style="border: none;">
-        <img src="Repository_Assets/Medical_Server_Terminal.png" width="370"/><br/>
+        <img src="repository_assets/medical_server_terminal.png" width="370"/><br/>
         <sub><b>Figure 8:</b> Medical Server Terminal</sub>
       </td>
     </tr>
